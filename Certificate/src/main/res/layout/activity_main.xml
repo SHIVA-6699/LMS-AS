@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="348dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="53dp"
+                android:background="#CD0101"
+                android:text="login"></Button>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="34dp"
+                android:orientation="vertical">
+                <!-- image 1-->
+
+
+                <ImageView
+                    android:layout_width="295dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="45dp"
+                    android:onClick="scroll"
+                    android:src="@drawable/andriod_app_devlopment">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="105dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="-100dp"
+                    android:text="   Android_App_Devlopment"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+                    android:textSize="26dp"></TextView>
+
+
+                <!-- image 2-->
+
+
+                <ImageView
+                    android:layout_width="295dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="13dp"
+                    android:onClick="scroll1"
+                    android:src="@drawable/advanced_analysis">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="-100dp"
+                    android:text="    Adavanced Analysis"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+                    android:textSize="26dp"></TextView>
+
+                <!-- image3-->
+
+
+                <ImageView
+                    android:layout_width="265dp"
+                    android:layout_height="155dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="73dp"
+                    android:onClick="scroll2"
+                    android:src="@drawable/business_reaserch">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="271dp"
+                    android:layout_height="111dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="-113dp"
+                    android:text="Business Reaserch"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="29dp"></TextView>
+                <!--                imgae 4-->
+
+                <ImageView
+                    android:layout_width="303dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll3"
+                    android:src="@drawable/anesthesia_for_specality_surgeries">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             Anesthesia for Specality Surgeries"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+
+                <!--image 5-->
+
+
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll4"
+                    android:src="@drawable/aero">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             Aerodynamic"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+                <!--                image 6-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll5"
+                    android:src="@drawable/biochemestry">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             Biochemstry"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+                <!--imagae 7-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll6"
+                    android:src="@drawable/busineeslaw">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+
+                    android:text="                             Business Law"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+                <!--                image 8-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll7"
+                    android:src="@drawable/gameart">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                               3D GameArt"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+                <!--                image 9-->
+
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="scroll8"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/advanced_extraction_technologies">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             Advance Extraction Technologies"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+                <!--                image 10-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll9"
+                    android:src="@drawable/camera_operatar">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             Camera Operator"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+                <!--image 11-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="scroll10"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/banking_law_practce">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                              Banking Law And Practice"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+
+                <!--image 12-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="scroll11"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/animation">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             Animation"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+
+                <!--                image 13-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll12"
+                    android:src="@drawable/it_infrastructure_management">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                                IT Infrastructure Management"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+                <!--image14 -->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll13"
+                    android:src="@drawable/accounting_for_managers">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="285dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             Accounting For Managers"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+
+                <!--         image 15-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="scroll14"
+                    android:src="@drawable/contact_lens">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             Contact Lens"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+
+                <!--    image 16-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="scroll15"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/awp">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                                    Advanced Web Programming"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+                <!--     image 17-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="scroll16"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/accident_investigatiom">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             Accident Investigation"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+
+                <!--     image 18-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="scroll17"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/cnc_programming">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             CNC Programming"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+
+                <!--                image 19-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="scroll18"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/digital_painting">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                             Digital Painting"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+
+                <!--                image 20-->
+                <ImageView
+                    android:layout_width="277dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="60dp"
+                    android:onClick="scroll19"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/crime_and_society">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="275dp"
+                    android:layout_height="185dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="-168dp"
+                    android:text="                               Crime and Society"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+
+
+                    android:textSize="28dp"></TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
